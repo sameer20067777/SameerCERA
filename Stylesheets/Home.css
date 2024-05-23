@@ -1,0 +1,156 @@
+
+.header {
+    /* Set the section to cover the entire viewport */
+    width: 100vw;
+    height: 100vh;
+    /* Ensure the image fills the section */
+    overflow: hidden;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: contain;
+}
+.f-p{
+    text-align: center;
+    color: #CD9A32;
+    margin: 2rem 0;
+}
+.fp-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+}
+.fp-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fp-card img{
+    height: 14rem;
+    width: 20rem;
+    transition:all linear  0.5s;
+    cursor: pointer;
+}
+.fp-card img:hover{
+    scale: 1.1;
+}
+.fp-card h4{
+    margin: 0.7rem 0;
+}
+main{
+    width: 90%;
+    height: 30rem;
+    margin: auto;
+    margin-top: 0rem;
+    position : relative;
+    overflow: hidden;
+    
+}
+.slide{
+    width: 100%;
+    height: 30rem;
+    transition: 1s;
+    position: absolute;
+}
+.slider-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.slider-btns{
+    display: flex;
+    align-items: center;
+    
+}
+.slider-btns button {
+    margin: 1rem;
+    border: 0;
+    height: 2rem;
+    width: 2rem;
+    /* padding: 1rem; */
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.v-a-p a{
+position: relative;
+left: 43%;
+ font-weight: 600 ;
+border: 3px solid #CD9A32;
+color: #CD9A32;
+background-color: #fff;
+text-decoration: none;
+padding: 0.5rem;
+border-radius: 1rem;
+transition: all 0.5s;
+margin-top: 2000px;
+;
+
+
+}
+.v-a-p a:hover{
+    background-color: #CD9A32;
+    color: #fff;
+}
+.home-cards{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: space-around;
+   
+}
+
+.home-card{
+    cursor: pointer;
+    border: 2px solid black;
+    height: 12rem;
+    width: 15rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3rem 0rem;
+    transition: all linear 0.5s ;
+    margin-bottom: 5rem;
+}
+.home-card i {
+    font-size: 2rem;
+}
+.home-card:hover{
+scale: 1.1;
+color: #CD9A32;
+border-color: #CD9A32;
+}
+.services{
+    color: #CD9A32;
+    text-align: center;
+   margin-top: 5rem;
+}
+
+@media(max-width:767px) {
+    
+    main{
+        width: 95%;
+        height: 15rem;
+    }
+
+    .slide{
+        height: 15rem;
+    }
+   .fp-card img{
+    height: 10rem;
+    width: 20rem;
+
+    }
+    .home-cards{
+        flex-wrap: wrap;
+    }
+    
+}

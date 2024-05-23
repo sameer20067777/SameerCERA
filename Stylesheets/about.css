@@ -1,0 +1,89 @@
+.about-heading{
+    margin: 2rem 0.5rem;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #CD9A32;
+    font-weight: 700;
+}
+.about-sec-1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+}
+.about-sec-1-right{
+   margin-top: 5rem;
+   margin: 0rem 2rem;
+   background-color: #CD9A32;
+   padding: 2rem;
+   border-radius: 1rem;
+   font-weight: 600;
+   color: #fff;
+}
+
+.about-cards{
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-around;
+   
+}
+
+.about-card{
+    cursor: pointer;
+    border: 2px solid black;
+    height: auto;
+    width: 35%;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    transition: all linear 0.5s ;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+.about-card h4{
+    color: #CD9A32;
+}
+.about-card i {
+    font-size: 2rem;
+    color: #CD9A32;
+}
+.about-card:hover{
+scale: 1.05;
+background-color: #CD9A32;
+border-color: #fff;
+}
+.about-card:hover i{
+    color: #fff;
+}
+.about-card:hover h4{
+    color: #fff;
+}
+.about-card:hover p{
+    color: #fff;
+}
+.business-heading{
+    color: #CD9A32;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+.business-para{
+    text-align: center;
+}
+
+@media(max-width:767px) {
+
+.about-sec-1-left{
+   display: none;
+}
+.about-card{
+    width: 60%;
+}
+}

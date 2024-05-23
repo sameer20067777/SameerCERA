@@ -1,0 +1,41 @@
+.main-img img{
+    width: 100%;
+    object-fit: cover;
+  
+}
+.main-img{
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.c-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    .catalog-card{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem 1rem;
+    }
+    .catalog-card h4{
+        text-align: center;
+    font-size: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    }
+    h4:hover{
+        font-weight: 600;
+        color: #CD9A32;
+    }
+    .catalog-card img {
+        width: 13rem;
+    height:13rem;
+    transition: all linear 0.5s;
+    cursor: pointer;
+    }
+    .catalog-card img :hover{
+scale: 1.1;
+    }

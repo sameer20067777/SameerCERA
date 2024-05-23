@@ -1,0 +1,31 @@
+.footer{
+    background-color: #F2F3F4;
+   height: 10rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 3rem;
+   padding: 0 1rem;
+   position: relative;
+    bottom: 0;
+}
+.footer .f-about{
+    font-size: 0.7rem;
+}
+.f-products ul{
+list-style: none ;
+
+}
+.f-products ul li {
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.f-products  :hover{
+    color: #CD9A32;
+}
+.f-product-link{
+text-decoration: none;    
+    color: black;
+    
+    }
+    
